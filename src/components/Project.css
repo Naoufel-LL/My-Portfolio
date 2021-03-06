@@ -1,0 +1,32 @@
+.project{
+    padding: 2% 10%;
+}
+.tit{
+    color:white;
+    margin-bottom: 30px;
+}
+.tit h3{
+    font-size: 2em;
+}
+.rec-dot{
+    background-color:rgb(23, 215, 120) !important;
+}
+.rec-arrow-right,.rec-arrow-left{
+    color:rgb(23, 215, 120) !important;
+
+}
+.tit a{
+    color:rgb(23, 215, 120) !important;
+}
+.card{
+    text-align: center;
+    color:white;
+}
+@media screen and (max-width:600px){
+    .tit h3{font-size: 1.5em;}
+    .project{
+        padding: 2% 0%;
+        display: none;
+    }
+   
+}
