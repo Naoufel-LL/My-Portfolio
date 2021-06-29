@@ -4,6 +4,7 @@ import pic3 from './images/project3.PNG'
 import pic4 from './images/project4.PNG'
 import pic5 from './images/project5.PNG'
 import pic6 from './images/project6.PNG'
+import pic7 from './images/project7.PNG'
 import CardPro from "./CardPro"
 import './Allproject.css'
 const Allprojects = () => {
@@ -19,6 +20,7 @@ const Allprojects = () => {
         <div className="allprojects">
             <hr/>
             <div className="allprojects-flex">
+            <CardPro img={pic7} title="Clutch.GG" text="A Valorant WebApp Agents/Map/Weapons/Skins🎮 " link="https://clatch-gg.web.app" />
              <CardPro img={pic1} title="Tesla Clone" text="Full Responsive TeslaWebApp using ReactJs 👨‍💻⚡" link="https://teslareact-df3c4.web.app"/>
              <CardPro img={pic2} title="PizzaWebApp" text="Responsive WebApp 😀 For Pizza Delivery 🍕🛵" link="https://pizzareact.web.app"/>
              <CardPro img={pic3} title="My Shop" text="Shop Website 🛒👟 using Html Css JQuery aos.js" link="https://naoufel-ll.github.io/MyShop/#"/>

@@ -4,6 +4,7 @@ import Carousel from 'react-elastic-carousel';
 import pic1 from './images/project1.PNG'
 import pic2 from './images/project2.PNG'
 import pic3 from './images/project4.PNG'
+import pic4 from './images/project7.PNG'
 const Project = () => {
     return (  
       <>
@@ -16,6 +17,7 @@ const Project = () => {
     <h4>Here are My Projects Hope You Like it <span>❤</span> </h4>
             </div>
         <Carousel className="carousel">
+              <Card img={pic4} title="Clutch.GG" desc="A Valorant Stats WebApp"/>
             <Card img={pic1} title="TeslaClone" desc="Full TeslaWebApp using ReactJs 👨‍💻⚡"/>
             <Card img={pic2} title="PizzaWebApp" desc="Responsive WebApp 😀 For Pizza Delivery 🍕🛵"/>
             <Card img={pic3} title="GymWebApp" desc="Gym WebApp🥊 using ReactJs 😀👨‍💻"/>
